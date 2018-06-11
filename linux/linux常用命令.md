@@ -1,5 +1,18 @@
 ### 重命名
 
+#### 解压文件
+
+将 Demo 文件 压缩成 Demo.zip 文件
+
+```Linux
+zip -r Demo.zip Demo
+```
+将 Demo.zip 解压到 Demo2 目录
+
+```Linux
+unzip Demo.zip -d Demo2 
+```
+#### 重命名
 linux下重命名文件或文件夹的命令mv既可以重命名，又可以移动文件或文件夹.
 
 **将目录A重命名为B**
