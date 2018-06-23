@@ -32,5 +32,17 @@ mv a.txt b.txt
 mv /a /b/c
 ```
 
+#### **安装软件**
+
+安装 vs code
+
+直接从vs code 官网上下载的是 `.deb` 文件，这个时候需要这样安装
+
+```shell
+sudo dpkg -i vscode.deb
+```
+
+
+
 
 
